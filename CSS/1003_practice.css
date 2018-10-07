@@ -1,0 +1,920 @@
+    body {
+        background-image: url(https://i.screenshot.net/l7zgguv);
+        background-size: 150%;
+        background-repeat: no-repeat;
+    }
+    
+    .title {
+        background-color: rgba(7, 6, 6, 0.452);
+        width: 100%;
+        height: 10%;
+        text-align: center;
+        border-style: groove;
+        font-family: Microsoft JhengHei;
+        color: white;
+    }
+    
+    .title_2 {
+        background-color: rgba(255, 255, 255, 0.048);
+        margin-top: 5px;
+        margin-left: 50ox;
+        width: 20%;
+        color: whitesmoke
+    }
+    
+    li {
+        margin-left: 80px;
+        margin-bottom: 0%;
+        margin-top: 0%;
+    }
+    
+    div {
+        margin-top: 5px;
+        background-color: beige;
+        width: 20%;
+    }
+    
+    img {
+        width: 250px;
+        border-color: yellowgreen;
+        border-width: 2px;
+        border-style: groove;
+        padding: 5px;
+        margin-left: 18px;
+    }
+    
+    .h2_1 {
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 2px;
+        margin-top: 0%;
+        margin-bottom: 0%
+    }
+    
+    p {
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 2px;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        color: black;
+        font-family: Microsoft JhengHei;
+    }
+    
+    hr {
+        width: 20%;
+        margin-left: 0%
+    }
+    
+    .h2_2 {
+        color: rgba(240, 248, 255, 0.795);
+        margin-bottom: 5px;
+        margin-left: 0%;
+    }
+    
+    h3 {
+        margin-left: 50px;
+        margin-bottom: 3px;
+    }
+    
+    table {
+        width: 770px;
+        height: 600px;
+        word-wrap: break-word;
+        table-layout: fixed;
+        border: 1px solid black;
+        position: absolute;
+        top: 150px;
+        left: 350px;
+        color: white;
+    }
+    
+    th,
+    td {
+        border: 1px solid white;
+    }
+    
+    .h2_3 {
+        color: rgba(255, 255, 255, 0.719);
+        position: absolute;
+        top: 90px;
+        left: 650px;
+    }
+    
+    .button {
+        /*高度設定*/
+        height: 22px;
+        /*文字設定*/
+        font-weight: bolder;
+        color: #FFF;
+        font-size: 14px;
+        /*將內定的邊距清除*/
+        margin-left: -50px;
+        /*將清單內定的內距清除(無清除，則左側會多出約40px，範例二可不用加這一項*/
+        padding: 0px;
+        position: absolute;
+        top: 85px;
+        left: 300px;
+        transition: 0.5s;
+    }
+    
+    .button li {
+        /* 讓各個清單元素靠左對齊，由原本的垂直排列變成水平排列，形成水平清單 */
+        float: left;
+        /* 設定清單文字範圍的寬度 */
+        width: 178px;
+        /* 去除清單文字前面的小點*/
+        list-style-type: none;
+        /* 讓清單文字居中對齊 */
+        text-align: center;
+        /* 設定背景色，依個人喜好調整背景色，但要符合整設計風格 */
+        background-color: #6E6E6E;
+        /* 設定字距為2px，非必要 */
+        letter-spacing: 2px;
+        /* 設定左邊的白邊樣式，可依個人喜好調整 */
+        border-left-width: 1px;
+        border-left-style: solid;
+        border-left-color: #FFF;
+        /* 右邊留白1像素 ，可依個人喜好調整*/
+        margin-right: 1px;
+    }
+    
+    .button li a {
+        /* 連結範圍充滿整個區塊 */
+        display: block;
+        /* 單個連結範圍的框度和高度*/
+        width: 180px;
+        height: 20px;
+        /* 設定連結範圍向上的內距，依狀況調整 */
+        padding-top: 2px;
+        /* 連結的文字設為白色以及無裝飾(無底線) ，依個人喜好調整背景色，但要符合整設計風格*/
+        color: #FFF;
+        text-decoration: none;
+    }
+    
+    .button li a:hover {
+        /* 設定滑鼠移過時，清單改變的底色設定 */
+        background-color: #39919F;
+    }
+    
+    .button_2 {
+        /*高度設定*/
+        height: 22px;
+        /*文字設定*/
+        font-weight: bolder;
+        color: #FFF;
+        font-size: 14px;
+        /*將內定的邊距清除*/
+        margin-left: -50px;
+        /*將清單內定的內距清除(無清除，則左側會多出約40px，範例二可不用加這一項*/
+        padding: 0px;
+        position: absolute;
+        top: 85px;
+        left: 480px;
+    }
+    
+    .button_2 li {
+        /* 讓各個清單元素靠左對齊，由原本的垂直排列變成水平排列，形成水平清單 */
+        float: left;
+        /* 設定清單文字範圍的寬度 */
+        width: 178px;
+        /* 去除清單文字前面的小點*/
+        list-style-type: none;
+        /* 讓清單文字居中對齊 */
+        text-align: center;
+        /* 設定背景色，依個人喜好調整背景色，但要符合整設計風格 */
+        background-color: #6E6E6E;
+        /* 設定字距為2px，非必要 */
+        letter-spacing: 2px;
+        /* 設定左邊的白邊樣式，可依個人喜好調整 */
+        border-left-width: 1px;
+        border-left-style: solid;
+        border-left-color: #FFF;
+        /* 右邊留白1像素 ，可依個人喜好調整*/
+        margin-right: 1px;
+    }
+    
+    .button_2 li a {
+        /* 連結範圍充滿整個區塊 */
+        display: block;
+        /* 單個連結範圍的框度和高度*/
+        width: 180px;
+        height: 20px;
+        /* 設定連結範圍向上的內距，依狀況調整 */
+        padding-top: 2px;
+        /* 連結的文字設為白色以及無裝飾(無底線) ，依個人喜好調整背景色，但要符合整設計風格*/
+        color: #FFF;
+        text-decoration: none;
+    }
+    
+    .button_2 li a:hover {
+        /* 設定滑鼠移過時，清單改變的底色設定 */
+        background-color: #39919F;
+    }
+    
+    .button_3 {
+        /*高度設定*/
+        height: 22px;
+        /*文字設定*/
+        font-weight: bolder;
+        color: #FFF;
+        font-size: 14px;
+        /*將內定的邊距清除*/
+        margin-left: -50px;
+        /*將清單內定的內距清除(無清除，則左側會多出約40px，範例二可不用加這一項*/
+        padding: 0px;
+        position: absolute;
+        top: 85px;
+        left: 660px;
+    }
+    
+    .button_3 li {
+        /* 讓各個清單元素靠左對齊，由原本的垂直排列變成水平排列，形成水平清單 */
+        float: left;
+        /* 設定清單文字範圍的寬度 */
+        width: 178px;
+        /* 去除清單文字前面的小點*/
+        list-style-type: none;
+        /* 讓清單文字居中對齊 */
+        text-align: center;
+        /* 設定背景色，依個人喜好調整背景色，但要符合整設計風格 */
+        background-color: #6E6E6E;
+        /* 設定字距為2px，非必要 */
+        letter-spacing: 2px;
+        /* 設定左邊的白邊樣式，可依個人喜好調整 */
+        border-left-width: 1px;
+        border-left-style: solid;
+        border-left-color: #FFF;
+        /* 右邊留白1像素 ，可依個人喜好調整*/
+        margin-right: 1px;
+    }
+    
+    .button_3 li a {
+        /* 連結範圍充滿整個區塊 */
+        display: block;
+        /* 單個連結範圍的框度和高度*/
+        width: 180px;
+        height: 20px;
+        /* 設定連結範圍向上的內距，依狀況調整 */
+        padding-top: 2px;
+        /* 連結的文字設為白色以及無裝飾(無底線) ，依個人喜好調整背景色，但要符合整設計風格*/
+        color: #FFF;
+        text-decoration: none;
+    }
+    
+    .button_3 li a:hover {
+        /* 設定滑鼠移過時，清單改變的底色設定 */
+        background-color: #39919F;
+    }
+    
+    .button_4 {
+        /*高度設定*/
+        height: 22px;
+        /*文字設定*/
+        font-weight: bolder;
+        color: #FFF;
+        font-size: 14px;
+        /*將內定的邊距清除*/
+        margin-left: -50px;
+        /*將清單內定的內距清除(無清除，則左側會多出約40px，範例二可不用加這一項*/
+        padding: 0px;
+        position: absolute;
+        top: 85px;
+        left: 840px;
+    }
+    
+    .button_4 li {
+        /* 讓各個清單元素靠左對齊，由原本的垂直排列變成水平排列，形成水平清單 */
+        float: left;
+        /* 設定清單文字範圍的寬度 */
+        width: 178px;
+        /* 去除清單文字前面的小點*/
+        list-style-type: none;
+        /* 讓清單文字居中對齊 */
+        text-align: center;
+        /* 設定背景色，依個人喜好調整背景色，但要符合整設計風格 */
+        background-color: #6E6E6E;
+        /* 設定字距為2px，非必要 */
+        letter-spacing: 2px;
+        /* 設定左邊的白邊樣式，可依個人喜好調整 */
+        border-left-width: 1px;
+        border-left-style: solid;
+        border-left-color: #FFF;
+        /* 右邊留白1像素 ，可依個人喜好調整*/
+        margin-right: 1px;
+    }
+    
+    .button_4 li a {
+        /* 連結範圍充滿整個區塊 */
+        display: block;
+        /* 單個連結範圍的框度和高度*/
+        width: 180px;
+        height: 20px;
+        /* 設定連結範圍向上的內距，依狀況調整 */
+        padding-top: 2px;
+        /* 連結的文字設為白色以及無裝飾(無底線) ，依個人喜好調整背景色，但要符合整設計風格*/
+        color: #FFF;
+        text-decoration: none;
+    }
+    
+    .button_4 li a:hover {
+        /* 設定滑鼠移過時，清單改變的底色設定 */
+        background-color: #39919F;
+    }
+    
+    .button_5 {
+        /*高度設定*/
+        height: 50px;
+        /*文字設定*/
+        font-weight: bolder;
+        color: #FFF;
+        font-size: 14px;
+        /*將內定的邊距清除*/
+        /*將清單內定的內距清除(無清除，則左側會多出約40px，範例二可不用加這一項*/
+        padding: 0px;
+        position: absolute;
+        margin-left: -50px;
+        top: 85px;
+        left: 1020px;
+    }
+    
+    .button_5 li {
+        /* 讓各個清單元素靠左對齊，由原本的垂直排列變成水平排列，形成水平清單 */
+        float: left;
+        /* 設定清單文字範圍的寬度 */
+        width: 178px;
+        /* 去除清單文字前面的小點*/
+        list-style-type: none;
+        /* 讓清單文字居中對齊 */
+        text-align: center;
+        /* 設定背景色，依個人喜好調整背景色，但要符合整設計風格 */
+        background-color: #6E6E6E;
+        /* 設定字距為2px，非必要 */
+        letter-spacing: 2px;
+        /* 設定左邊的白邊樣式，可依個人喜好調整 */
+        border-left-width: 1px;
+        border-left-style: solid;
+        border-left-color: #FFF;
+        /* 右邊留白1像素 ，可依個人喜好調整*/
+        margin-right: 1px;
+    }
+    
+    .button_5 li a {
+        /* 連結範圍充滿整個區塊 */
+        display: block;
+        /* 單個連結範圍的框度和高度*/
+        width: 180px;
+        height: 20px;
+        /* 設定連結範圍向上的內距，依狀況調整 */
+        padding-top: 2px;
+        /* 連結的文字設為白色以及無裝飾(無底線) ，依個人喜好調整背景色，但要符合整設計風格*/
+        color: #FFF;
+        text-decoration: none;
+    }
+    
+    .button_5 li a:hover {
+        /* 設定滑鼠移過時，清單改變的底色設定 */
+        background-color: #39919F;
+    }
+    
+    .title_3 {
+        background-color: rgb(236, 236, 192);
+        position: absolute;
+        left: 78%;
+        top: 20%;
+        color: beige;
+        text-align: center;
+        border-radius: 20px 20px 20px 20px;
+        height: 25px;
+    }
+    
+    .title_4 {
+        background-color: rgb(230, 230, 59);
+        position: absolute;
+        left: 80%;
+        top: 25%;
+        color: beige;
+        text-align: center;
+        border-radius: 20px 20px 20px 20px;
+        height: 25px;
+        width: 96px;
+        margin-bottom: 0%;
+    }
+    
+    .button_6 {
+        margin-top: 0%;
+    }
+    
+    .button_6 li {
+        /* 讓各個清單元素靠左對齊，由原本的垂直排列變成水平排列，形成水平清單 */
+        /* 設定清單文字範圍的寬度 */
+        width: 96px;
+        /* 去除清單文字前面的小點*/
+        list-style-type: none;
+        /* 讓清單文字居中對齊 */
+        text-align: center;
+        /* 設定背景色，依個人喜好調整背景色，但要符合整設計風格 */
+        background-color: rgba(255, 255, 255, 0.164);
+        /* 設定字距為2px，非必要 */
+        letter-spacing: 2px;
+        /* 設定左邊的白邊樣式，可依個人喜好調整 */
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: rgba(255, 255, 255, 0.158);
+        /* 右邊留白1像素 ，可依個人喜好調整*/
+        margin-right: 1px;
+        color: white;
+        display: block;
+        margin-left: -38px;
+        margin-top: 0%;
+        display: none;
+    }
+    
+    .title_4:hover .button_6 li {
+        display: block;
+    }
+    
+    .title_5 {
+        background-color: rgb(230, 230, 59);
+        position: absolute;
+        left: 80%;
+        top: 30%;
+        color: beige;
+        text-align: center;
+        border-radius: 20px 20px 20px 20px;
+        height: 25px;
+        width: 96px;
+        margin-bottom: 0%;
+    }
+    
+    .button_7 {
+        margin-top: 0%;
+    }
+    
+    .button_7 li {
+        /* 讓各個清單元素靠左對齊，由原本的垂直排列變成水平排列，形成水平清單 */
+        /* 設定清單文字範圍的寬度 */
+        width: 96px;
+        /* 去除清單文字前面的小點*/
+        list-style-type: none;
+        /* 讓清單文字居中對齊 */
+        text-align: center;
+        /* 設定背景色，依個人喜好調整背景色，但要符合整設計風格 */
+        background-color: rgba(255, 255, 255, 0.164);
+        /* 設定字距為2px，非必要 */
+        letter-spacing: 2px;
+        /* 設定左邊的白邊樣式，可依個人喜好調整 */
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: rgba(255, 255, 255, 0.158);
+        /* 右邊留白1像素 ，可依個人喜好調整*/
+        margin-right: 1px;
+        color: white;
+        display: block;
+        margin-left: -38px;
+        margin-top: 0%;
+        display: none;
+    }
+    
+    .title_5:hover .button_7 li {
+        display: block;
+    }
+    
+    .title_4:hover+.title_5 {
+        display: none;
+    }
+    
+    .title_6 {
+        background-color: rgb(230, 230, 59);
+        position: absolute;
+        left: 80%;
+        top: 65%;
+        color: beige;
+        text-align: center;
+        border-radius: 20px 20px 20px 20px;
+        height: 25px;
+        width: 96px;
+        margin-bottom: 0%;
+    }
+    
+    .button_8 {
+        margin-top: 0%;
+    }
+    
+    .button_8 li {
+        /* 讓各個清單元素靠左對齊，由原本的垂直排列變成水平排列，形成水平清單 */
+        /* 設定清單文字範圍的寬度 */
+        width: 96px;
+        /* 去除清單文字前面的小點*/
+        list-style-type: none;
+        /* 讓清單文字居中對齊 */
+        text-align: center;
+        /* 設定背景色，依個人喜好調整背景色，但要符合整設計風格 */
+        background-color: rgba(255, 255, 255, 0.164);
+        /* 設定字距為2px，非必要 */
+        letter-spacing: 2px;
+        /* 設定左邊的白邊樣式，可依個人喜好調整 */
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: rgba(255, 255, 255, 0.158);
+        /* 右邊留白1像素 ，可依個人喜好調整*/
+        margin-right: 1px;
+        color: white;
+        display: block;
+        margin-left: -38px;
+        margin-top: 0%;
+        display: none;
+    }
+    
+    .title_6:hover .button_8 li {
+        display: block;
+    }
+    
+    .title_7 {
+        background-color: rgb(230, 230, 59);
+        position: absolute;
+        left: 80%;
+        top: 70%;
+        color: beige;
+        text-align: center;
+        border-radius: 20px 20px 20px 20px;
+        height: 25px;
+        width: 96px;
+        margin-bottom: 0%;
+    }
+    
+    .button_9 {
+        margin-top: 0%;
+    }
+    
+    .button_9 li {
+        /* 讓各個清單元素靠左對齊，由原本的垂直排列變成水平排列，形成水平清單 */
+        /* 設定清單文字範圍的寬度 */
+        width: 96px;
+        /* 去除清單文字前面的小點*/
+        list-style-type: none;
+        /* 讓清單文字居中對齊 */
+        text-align: center;
+        /* 設定背景色，依個人喜好調整背景色，但要符合整設計風格 */
+        background-color: rgba(255, 255, 255, 0.164);
+        /* 設定字距為2px，非必要 */
+        letter-spacing: 2px;
+        /* 設定左邊的白邊樣式，可依個人喜好調整 */
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: rgba(255, 255, 255, 0.158);
+        /* 右邊留白1像素 ，可依個人喜好調整*/
+        margin-right: 1px;
+        color: white;
+        display: block;
+        margin-left: -38px;
+        margin-top: 0%;
+        display: none;
+    }
+    
+    .title_7:hover .button_9 li {
+        display: block;
+    }
+    
+    .title_6:hover+.title_7 {
+        display: none;
+    }
+    
+    .title_8 {
+        background-color: rgb(230, 230, 59);
+        position: absolute;
+        left: 90%;
+        top: 25%;
+        color: beige;
+        text-align: center;
+        border-radius: 20px 20px 20px 20px;
+        height: 25px;
+        width: 96px;
+        margin-bottom: 0%;
+    }
+    
+    .button_10 {
+        margin-top: 0%;
+    }
+    
+    .button_10 li {
+        /* 讓各個清單元素靠左對齊，由原本的垂直排列變成水平排列，形成水平清單 */
+        /* 設定清單文字範圍的寬度 */
+        width: 96px;
+        /* 去除清單文字前面的小點*/
+        list-style-type: none;
+        /* 讓清單文字居中對齊 */
+        text-align: center;
+        /* 設定背景色，依個人喜好調整背景色，但要符合整設計風格 */
+        background-color: rgba(255, 255, 255, 0.164);
+        /* 設定字距為2px，非必要 */
+        letter-spacing: 2px;
+        /* 設定左邊的白邊樣式，可依個人喜好調整 */
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: rgba(255, 255, 255, 0.158);
+        /* 右邊留白1像素 ，可依個人喜好調整*/
+        margin-right: 1px;
+        color: white;
+        display: block;
+        margin-left: -38px;
+        margin-top: 0%;
+        display: none;
+    }
+    
+    .title_8:hover .button_10 li {
+        display: block;
+    }
+    
+    .title_9 {
+        background-color: rgb(230, 230, 59);
+        position: absolute;
+        left: 90%;
+        top: 30%;
+        color: beige;
+        text-align: center;
+        border-radius: 20px 20px 20px 20px;
+        height: 25px;
+        width: 96px;
+        margin-bottom: 0%;
+    }
+    
+    .button_11 {
+        margin-top: 0%;
+    }
+    
+    .button_11 li {
+        /* 讓各個清單元素靠左對齊，由原本的垂直排列變成水平排列，形成水平清單 */
+        /* 設定清單文字範圍的寬度 */
+        width: 96px;
+        /* 去除清單文字前面的小點*/
+        list-style-type: none;
+        /* 讓清單文字居中對齊 */
+        text-align: center;
+        /* 設定背景色，依個人喜好調整背景色，但要符合整設計風格 */
+        background-color: rgba(255, 255, 255, 0.164);
+        /* 設定字距為2px，非必要 */
+        letter-spacing: 2px;
+        /* 設定左邊的白邊樣式，可依個人喜好調整 */
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: rgba(255, 255, 255, 0.158);
+        /* 右邊留白1像素 ，可依個人喜好調整*/
+        margin-right: 1px;
+        color: white;
+        display: block;
+        margin-left: -38px;
+        margin-top: 0%;
+        display: none;
+    }
+    
+    .title_9:hover .button_11 li {
+        display: block;
+    }
+    
+    .title_8:hover+.title_9 {
+        display: none;
+    }
+    
+    .title_10 {
+        background-color: rgb(230, 230, 59);
+        position: absolute;
+        left: 90%;
+        top: 65%;
+        color: beige;
+        text-align: center;
+        border-radius: 20px 20px 20px 20px;
+        height: 25px;
+        width: 96px;
+        margin-bottom: 0%;
+    }
+    
+    .button_12 {
+        margin-top: 0%;
+    }
+    
+    .button_12 li {
+        /* 讓各個清單元素靠左對齊，由原本的垂直排列變成水平排列，形成水平清單 */
+        /* 設定清單文字範圍的寬度 */
+        width: 96px;
+        /* 去除清單文字前面的小點*/
+        list-style-type: none;
+        /* 讓清單文字居中對齊 */
+        text-align: center;
+        /* 設定背景色，依個人喜好調整背景色，但要符合整設計風格 */
+        background-color: rgba(255, 255, 255, 0.164);
+        /* 設定字距為2px，非必要 */
+        letter-spacing: 2px;
+        /* 設定左邊的白邊樣式，可依個人喜好調整 */
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: rgba(255, 255, 255, 0.158);
+        /* 右邊留白1像素 ，可依個人喜好調整*/
+        margin-right: 1px;
+        color: white;
+        display: block;
+        margin-left: -38px;
+        margin-top: 0%;
+        display: none;
+    }
+    
+    .title_10:hover .button_12 li {
+        display: block;
+    }
+    
+    .title_11 {
+        background-color: rgba(230, 230, 59, 0.459);
+        position: absolute;
+        left: 90%;
+        top: 70%;
+        color: beige;
+        text-align: center;
+        border-radius: 20px 20px 20px 20px;
+        height: 25px;
+        width: 96px;
+        margin-bottom: 0%;
+    }
+    
+    .title_10:hover+.title_11 {
+        display: none;
+    }
+    
+    .title_12 {
+        background-color: rgba(255, 0, 0, 0.8);
+        position: absolute;
+        top: 110%;
+        left: 25%;
+        border-radius: 20px 20px 20px 20px;
+        width: 8%;
+        color: whitesmoke;
+        text-align: center
+    }
+    
+    .title_12_1 {
+        position: absolute;
+        top: 106%;
+        left: 26%;
+        color: white;
+    }
+    
+    .title_13 {
+        background-color: rgba(255, 0, 0, 0.8);
+        position: absolute;
+        top: 110%;
+        left: 35%;
+        border-radius: 20px 20px 20px 20px;
+        width: 8%;
+        color: whitesmoke;
+        text-align: center
+    }
+    
+    .title_13_1 {
+        position: absolute;
+        top: 106%;
+        left: 36%;
+        color: WHITE;
+    }
+    
+    .title_14 {
+        background-color: rgba(255, 0, 0, 0.8);
+        position: absolute;
+        top: 110%;
+        left: 45%;
+        border-radius: 20px 20px 20px 20px;
+        width: 8%;
+        color: whitesmoke;
+        text-align: center
+    }
+    
+    .title_14_1 {
+        position: absolute;
+        top: 106%;
+        left: 47%;
+        color: WHITE;
+    }
+    
+    .title_15 {
+        background-color: rgba(255, 0, 0, 0.8);
+        position: absolute;
+        top: 110%;
+        left: 55%;
+        border-radius: 20px 20px 20px 20px;
+        width: 8%;
+        color: whitesmoke;
+        text-align: center
+    }
+    
+    .title_15_1 {
+        position: absolute;
+        top: 106%;
+        left: 56%;
+        color: WHITE;
+    }
+    
+    .title_16 {
+        background-color: rgba(255, 0, 0, 0.8);
+        position: absolute;
+        top: 110%;
+        left: 65%;
+        border-radius: 20px 20px 20px 20px;
+        width: 8%;
+        color: whitesmoke;
+        text-align: center
+    }
+    
+    .title_16_1 {
+        position: absolute;
+        top: 106%;
+        left: 66%;
+        color: WHITE;
+    }
+    
+    .title_17 {
+        background-color: rgba(255, 0, 0, 0.8);
+        position: absolute;
+        top: 119%;
+        left: 65%;
+        border-radius: 20px 20px 20px 20px;
+        width: 8%;
+        color: whitesmoke;
+        text-align: center
+    }
+    
+    .title_17_1 {
+        position: absolute;
+        top: 115%;
+        left: 66%;
+        color: WHITE;
+    }
+    
+    .title_18 {
+        background-color: rgba(255, 0, 0, 0.8);
+        position: absolute;
+        top: 119%;
+        left: 55%;
+        border-radius: 20px 20px 20px 20px;
+        width: 8%;
+        color: whitesmoke;
+        text-align: center
+    }
+    
+    .title_18_1 {
+        position: absolute;
+        top: 115%;
+        left: 55.5%;
+        color: WHITE;
+    }
+    
+    .title_19 {
+        background-color: rgba(255, 0, 0, 0.8);
+        position: absolute;
+        top: 119%;
+        left: 45%;
+        border-radius: 20px 20px 20px 20px;
+        width: 8%;
+        color: whitesmoke;
+        text-align: center
+    }
+    
+    .title_19_1 {
+        position: absolute;
+        top: 115%;
+        left: 47%;
+        color: WHITE;
+    }
+    
+    .title_20 {
+        background-color: rgba(255, 0, 0, 0.8);
+        position: absolute;
+        top: 119%;
+        left: 35%;
+        border-radius: 20px 20px 20px 20px;
+        width: 8%;
+        color: whitesmoke;
+        text-align: center
+    }
+    
+    .title_20_1 {
+        position: absolute;
+        top: 115%;
+        left: 36%;
+        color: WHITE;
+    }
+    
+    .title_21 {
+        background-color: rgba(255, 0, 0, 0.2);
+        position: absolute;
+        top: 119%;
+        left: 25%;
+        border-radius: 20px 20px 20px 20px;
+        width: 8%;
+        color: whitesmoke;
+        text-align: center
+    }
+    
+    .title_21_1 {
+        position: absolute;
+        top: 115%;
+        left: 27%;
+        color: WHITE;
+    }
